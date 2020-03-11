@@ -1,0 +1,7 @@
+com.weilus.zxhtml.entity.Test:
+  name:
+  - "@Size(max = 10,groups = Add.class)"
+  - "@NotNull"
+  age:
+  - "@Min(3)"
+  - "@Max(10)"
